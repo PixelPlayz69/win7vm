@@ -22,7 +22,7 @@ Windows 10 ISO (for initial installation)
 Modern web browser (for noVNC access)
 # 🚀 Installation #
 1. Clone the Repository
-|| git clone https://github.com/hopingboyz/windows10vm ||
+# git clone https://github.com/hopingboyz/windows10vm 
 
 cd windows10vm
 
@@ -36,4 +36,4 @@ docker run -it --rm \
   -p 3389:3389 \
   -v windows_data:/data \
   -v windows_iso:/iso \
-  windows10-vm
+  windows7-vm #
