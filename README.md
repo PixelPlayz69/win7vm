@@ -22,7 +22,7 @@ Windows 10 ISO (for initial installation)
 Modern web browser (for noVNC access)
 # 🚀 Installation #
 1. Clone the Repository
-## git clone https://github.com/hopingboyz/windows10vm 
+### git clone https://github.com/hopingboyz/windows10vm 
 
 cd windows10vm
 
