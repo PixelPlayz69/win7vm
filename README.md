@@ -29,9 +29,9 @@ cd win7vm
 docker build -t windows7-vm .
 
 docker run -it --rm \
-  --device /dev/kvm \
-  -p 6080:6080 \
-  -p 3389:3389 \
-  -v windows_data:/data \
-  -v windows_iso:/iso \
+    --device /dev/kvm \
+    -p 6080:6080 \
+    -p 3389:3389 \
+    -v windows_data:/data \
+    -v windows_iso:/iso \
   windows7-vm 
