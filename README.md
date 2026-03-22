@@ -23,11 +23,11 @@ Modern web browser (for noVNC access)
 # 🚀 Installation #
 #### git clone https://github.com/hopingboyz/windows10vm 
 
-####cd windows10vm
+#### cd windows10vm
 
-####docker build -t windows10-vm .
+#### docker build -t windows10-vm .
 
-####docker run -it --rm \
+#### docker run -it --rm \
   --device /dev/kvm \
   -p 6080:6080 \
   -p 3389:3389 \
